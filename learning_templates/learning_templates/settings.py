@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-psdv$%9ef*(2-%%f#e4sx_qo7_la*onbmcb@csf&vb3v4&0eo-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'flogert09.pythonanywhere.com',
+    'localhost',
+    '127.0.0.1'
+]
+
 
 
 # Application definition
